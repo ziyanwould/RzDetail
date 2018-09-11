@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公共头部样式</title>
+    <link rel="stylesheet" type="text/css" href="css/header_footer.css">
+</head>
+<body>
+    <div class="header">
+        <div class="h_first">
+            <div class="f_all">
+                <div class="f_left">
+                    <span>您好，欢迎来到中住71</span>
+                </div>
+                <div class="f_right">
+                    <dl>
+                        <dt><a href="#">登入</a></dt>
+                        <dt><a href="#">注册</a></dt>
+                        <dt><a href="#">联系我们</a></dt>
+                        <dd><a href="#"><span class="wx"></span></a></dd>
+                        <dd><a href="#"><span class="pho"></span></a></dd>
+                        <dd>400-900-1971</dd>
+                    </dl>
+                    <div class="w_xin">
+                        <dl>
+                            <dd class="wx1">
+                                <img src="images/wx_erweima.png">
+                                <p>中住71官方微信</p>
+                            </dd>
+                            <dd class="wx2">
+                                <img src="images/wb_erweima.png">
+                                <p>中住建筑咨询官网</p>
+                            </dd>
+                        </dl>
+
+
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="a_second">
+            <div class="h_second">
+                <div class="s_left">
+                    <img src="images/logo.png">
+                    <div class="f_p">
+                        <h2>广州</h2>
+                        <span><a href="#">切换城市</a> </span>
+                    </div>
+                </div>
+                <div class="s_right">
+                    <ul>
+                        <li class="server">
+                            <input type="text" placeholder="PPP" />
+                            <a href="#"></a>
+                            <div class="c_server">
+                                <p class="h_change">服务<em>v</em></p>
+                                <dl class="h_count">
+                                    <dt><a href="#">服务</a></dt>
+                                    <dt><a href="#">服务商</a></dt>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class="fabu">
+                            <a href="#" >免费发布</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="count1">
+        <i><a href="#">服务导航</a></i>
+        <span><a href="#">首页</a></span>
+        <!--<span><a href="#">专包资质</a></span>-->
+        <!--<span><a href="#">其他</a></span>-->
+    </div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    $(function () {
+//       鼠标移入显示二维码
+        $(".wx").hover(function(){
+            $(".w_xin").css("display","block");
+        },function(){
+            $(".w_xin").css("display","none");
+        });
+
+//        鼠标移入出现服务切换框
+        $('.h_change').mouseover(function(){
+            $(".h_count").css("display","block");
+        });
+        $('.c_server').mouseleave(function () {
+            $(".h_count").css("display","none");
+        });
+
+        $('.h_count dt').click(function () {
+            var count= $(this).children().html();
+           $('.h_change').html(count+'<em>v</em>');
+        })
+    })
+</script>
+</html>

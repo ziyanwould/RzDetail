@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公共头部样式</title>
+    <link rel="stylesheet" type="text/css" href="css/header_footer.css">
+</head>
+<body>
+    <div class="header">
+        <div class="h_first">
+            <div class="f_all">
+                <div class="f_left">
+                    <span>您好，欢迎来到中住71</span>
+                </div>
+                <div class="f_right">
+                    <dl>
+                        <dt><a href="#">登入</a></dt>
+                        <dt><a href="#">注册</a></dt>
+                        <dt><a href="#">联系我们</a></dt>
+                        <dd><a href="#"><span class="wx"></span></a></dd>
+                        <dd><a href="#"><span class="pho"></span></a></dd>
+                        <dd>400-900-1971</dd>
+                    </dl>
+                    <div class="w_xin">
+                        <dl>
+                            <dd class="wx1">
+                                <img src="images/wx_erweima.png">
+                                <p>中住71官方微信</p>
+                            </dd>
+                            <dd class="wx2">
+                                <img src="images/wb_erweima.png">
+                                <p>中住建筑咨询微信</p>
+                            </dd>
+                        </dl>
+
+
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="a_second">
+            <div class="h_second">
+                <div class="s_left">
+                    <div class="t_logo"><img src="images/logo.png"></div>
+                    <!--<div class="us">-->
+
+                    <!--</div>-->
+                    <!--<div class="area">-->
+                       <!--企业资质-->
+                    <!--</div>-->
+                    <style>
+                        .f_p{
+                            position: absolute;
+                            left: 291px;
+                        }
+                        .t_logo:after{
+                            content: " ";
+                            position: absolute;
+                            width: 1px;
+                            height: 40px;
+                            background: #F0F0F0;
+                            float: left;
+                            margin:30px 0;
+                        }
+                        .f_p:before{
+                            position: absolute;
+                            left: -90px;
+                            content: "企业资质";
+                            width: 80px;
+                            height: 30px;
+                            font-family:"PingFang SC","Microsoft YaHei";
+                            background: #5C9949;
+                            border-radius:5px ;
+                            color: #ffffff;
+                            font-size: 13px;
+                            text-align: center;
+                            line-height: 30px;
+                            float: left;
+                            /*margin: 35px 10px 35px 0;*/
+
+                        }
+
+
+                        /* 弹出框样式*/
+                        #popups{
+                            width: 326px;
+                            height: 164px;
+                            background: #FFFFFF;
+                            position: absolute;
+                            left: 45%;
+                            top: 45%;
+                            font-family: "Regular";
+                            font-size: 16px;
+                            color: #000000;
+                            border-radius:19px ;
+                            z-index: 999;
+                            display: none;
+                            }
+                        #popups p{
+                            width:324px;
+                            height: 38px;
+                            text-indent: 41px;
+                            line-height: 38px;
+                            background: #F7F7F7;
+                            border: 1px solid #C9C9C9;
+                            border-radius:8px ;
+                            }
+                        #popups span{
+                            text-indent: 41px;
+                            display: block;
+                            width: 100%;
+                            height: 124px;
+                            line-height: 100px;
+                            background: #ffffff;
+                            position: relative;
+                            border-bottom-left-radius:8px ;
+                            border-bottom-right-radius:8px ;
+                        }
+                        #popups span img{
+                            width: 30px;
+                            height: 30px;
+                            display: inline-block;
+                           position: relative;
+                            top: 10px;
+                        }
+                        #popups span a{
+                            display: inline-block;
+                            width: 52px;
+                            height: 30px;
+                            position: absolute;
+                            line-height: 30px;
+                            font-size:16px ;
+                            text-indent: 0;
+                            text-align: center;
+                            background: #FD8E25;
+                            color: #fff;
+                            bottom: 13px;
+                            right: 20px;
+                        }
+
+                        #overlay {
+                            background: #000;
+                            filter: alpha(opacity=50); /* IE的透明度 */
+                            opacity: 0.5;  /* 透明度 */
+                            display: none;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 100; /* 此处的图层要大于页面 */
+                            display:none;
+                        }
+
+
+                        .f_left em{
+                            font-size: 16px;
+                            color: #1DB13D;
+                            display: inline;
+                            padding:0 5px;
+
+                        }
+
+                        .f_left a:hover{
+                            text-decoration: underline;
+
+                        }
+                        .f_left a{
+                            color: #A5A5A5;
+                        }
+
+
+
+                    </style>
+                    <div class="f_p">
+                        <!--<h2>广州</h2>-->
+                        <!--<span><a href="#">切换城市</a> </span>-->
+                    </div>
+                </div>
+                <div class="s_right">
+                    <ul>
+                        <li class="server">
+                            <input type="text" placeholder="PPP" />
+                            <a href="#"></a>
+                            <div class="c_server">
+                                <p class="h_change">服务<em>v</em></p>
+                                <dl class="h_count">
+                                    <dt><a href="#">服务</a></dt>
+                                    <dt><a href="#">服务商</a></dt>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class="fabu">
+                            <a href="#" >免费发布</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="count1">-->
+        <!--<i><a href="#">服务导航</a></i>-->
+        <!--<span><a href="#">首页</a></span>-->
+        <!--&lt;!&ndash;<span><a href="#">专包资质</a></span>&ndash;&gt;-->
+        <!--&lt;!&ndash;<span><a href="#">其他</a></span>&ndash;&gt;-->
+    <!--</div>-->
+    <div id="news">
+            <ul class="n_counts clearfix">
+                <li><a href="http://www.zhongzhu71.com/">首页</a></li>
+                <!--<li><a href="http://www.zhongzhu71.com/Home/ZZServer">中住服务</a></li>-->
+                <li><a href="http://zz.zhongzhu71.com/" >资质服务</a></li>
+                <li><a href="http://hr.zhongzhu71.com/">人才猎聘</a></li>
+                <li><a href="http://cz.zhongzhu71.com/">城市展示</a></li>
+                <li><a href="http://www.zhongzhu71.com/News/Index" class="active">平台动态</a></li>
+              <!--<li><a href="javascript:;" onclick="alert('功能暂未开放，敬请期待！');">中住诚信联盟</a></li>-->
+            </ul>
+    </div>
+
+    <div id="popups">
+        <p>温馨提示</p>
+        <span><img src="images/points.png"> 不能对自己发布的信息操作！<a href="#">返回</a> </span>
+    </div>
+    <div id="overlay">
+
+    </div>
+
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    $(function () {
+//       鼠标移入显示二维码
+        $(".wx").hover(function(){
+            $(".w_xin").css("display","block");
+        },function(){
+            $(".w_xin").css("display","none");
+        });
+
+//        鼠标移入出现服务切换框
+        $('.h_change').mouseover(function(){
+            $(".h_count").css("display","block");
+        });
+        $('.c_server').mouseleave(function () {
+            $(".h_count").css("display","none");
+        });
+
+        $('.h_count dt').click(function () {
+            var count= $(this).children().html();
+           $('.h_change').html(count+'<em>v</em>');
+        })
+    })
+
+    /* 显示遮罩层 */
+    showOverlay();
+    /*点击事件*/
+    $('#popups a').on('click',function () {
+        hideOverlay();
+    });
+    function showOverlay() {
+        $("#overlay").height(pageHeight());
+        $("#overlay").width(pageWidth());
+
+        // fadeTo第一个参数为速度，第二个为透明度
+        // 多重方式控制透明度，保证兼容性，但也带来修改麻烦的问题
+        $("#overlay").fadeTo(200, 0.5);
+        $("#popups").show();
+    }
+
+    /* 隐藏覆盖层 */
+    function hideOverlay() {
+        $("#overlay").fadeOut(200);
+        $("#popups").hide();
+    }
+
+    /* 当前页面高度 */
+    function pageHeight() {
+        return document.body.scrollHeight;
+    }
+
+    /* 当前页面宽度 */
+    function pageWidth() {
+        return document.body.scrollWidth;
+    }
+
+    /* 定位到页面中心 */
+    adjust('#popups');
+    function adjust(id) {
+        var w = $(id).width();
+        var h = $(id).height();
+
+        var t = scrollY() + (windowHeight()/2) - (h/2);
+        if(t < 0) t = 0;
+
+        var l = scrollX() + (windowWidth()/2) - (w/2);
+        if(l < 0) l = 0;
+
+        $(id).css({left: l+'px', top: t+'px'});
+    }
+
+    //浏览器视口的高度
+    function windowHeight() {
+        var de = document.documentElement;
+
+        return self.innerHeight || (de && de.clientHeight) || document.body.clientHeight;
+    }
+
+    //浏览器视口的宽度
+    function windowWidth() {
+        var de = document.documentElement;
+
+        return self.innerWidth || (de && de.clientWidth) || document.body.clientWidth
+    }
+
+    /* 浏览器垂直滚动位置 */
+    function scrollY() {
+        var de = document.documentElement;
+
+        return self.pageYOffset || (de && de.scrollTop) || document.body.scrollTop;
+    }
+
+    /* 浏览器水平滚动位置 */
+    function scrollX() {
+        var de = document.documentElement;
+
+        return self.pageXOffset || (de && de.scrollLeft) || document.body.scrollLeft;
+    }
+</script>
+</html>

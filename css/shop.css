@@ -1,0 +1,432 @@
+.count2 dd .ps {
+  width: 430px;
+}
+
+.deall {
+  position: relative;
+  height: 300px;
+}
+
+.dekf {
+  width: 228px;
+  height: 280px;
+  background: #FFFFFF;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid #EEF7FC;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.kfPerson {
+  width: 105px;
+  height: 105px;
+  border-radius: 105px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.dename {
+  color: #ff9919;
+  padding-top: 26px;
+  padding-bottom: 16px;
+  font-size: 15px;
+}
+
+.kfdetail {
+  padding-bottom: 16px;
+  font-size: 14px;
+  color: #000;
+}
+
+.kfPhone {
+  width: 171px;
+  height: 34px;
+  background: #ff9919;
+  margin: 0 auto;
+  line-height: 34px;
+  border-radius: 34px;
+  color: #FFFFFF;
+}
+
+.decount {
+  width: 100%;
+  background: #F8F8F8;
+}
+
+.dcDetail {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 500px;
+  padding-top: 47px;
+  background: #ffffff;
+}
+.dcDetail h3 {
+  width: 1200px;
+  height: 170px;
+  background: url("../images/bannerDE.png") no-repeat center;
+  font-size: 48px;
+  color: #FFF;
+  text-align: center;
+  line-height: 170px;
+  background-size: 1200px 170px;
+}
+
+.delist1 {
+  height: 365px;
+  width: 1196px;
+  border: 2px solid #FF7920;
+  border-top: none;
+}
+
+.delLeft1, .delRight1 {
+  float: left;
+}
+
+.delLeft2, .delRight2 {
+  float: left;
+}
+
+.delLeft1, .delRight2 {
+  width: 778px;
+}
+.delLeft1 h4, .delRight2 h4 {
+  padding: 100px 0 0 100px;
+  font-size: 30px;
+  color: #ff8400;
+  margin-bottom: 26px;
+}
+
+.details {
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 100px;
+}
+
+.delRight1, .delLeft2 {
+  width: 418px;
+}
+
+.dcDetai2 {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #ffffff;
+}
+
+.decount h2 {
+  font-size: 30px;
+  color: #ff8400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dD2Count {
+  padding-left: 137px;
+}
+
+.ddChild {
+  width: 127px;
+  text-align: center;
+  float: left;
+}
+
+.ddChild p {
+  padding-top: 20px;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.zishi {
+  height: 165px;
+  margin: 48px 46px 0 46px;
+  float: left;
+}
+
+.down {
+  height: 47px;
+  margin-bottom: 46px;
+}
+.down img {
+  display: inline-block;
+  float: right;
+  margin-right: 186px;
+}
+
+.dcDetai3 {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 130px;
+  background: #ffffff;
+}
+
+.dcDetai3 h3 {
+  font-size: 30px;
+  color: #ff8400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sTitle {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sTitle em {
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  background: #e9e9e9;
+  position: relative;
+  top: -6px;
+}
+
+.sTitle span {
+  display: inline-block;
+  font-size: 24px;
+  color: #b6b6b8;
+  padding: 0 30px;
+}
+
+.decount3 {
+  width: 1200px;
+  height: 767px;
+  background: url("../images/RZdetail3.png") no-repeat center;
+  background-size: 1200px 767px;
+}
+
+.dec3Child {
+  width: 1196px;
+  height: 767px;
+  background: url("../images/RZdetail3_1.png") no-repeat center 70px;
+}
+
+.dec3Child h4 {
+  font-size: 24px;
+  color: #444444;
+}
+
+.dec3Child h4 {
+  font-size: 24px;
+  color: #444444;
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+
+.dec3Child p {
+  font-size: 14px;
+  color: #4f4f4f;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.dec3Child ul {
+  text-align: center;
+}
+
+.dec3Child ul li {
+  margin-top: 225px;
+  padding-top: 30px;
+  width: 183px;
+  height: 6px;
+  display: inline-block;
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+.dcDetai4 {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 130px;
+  background: #ffffff;
+}
+.dcDetai4 h3 {
+  font-size: 30px;
+  color: #ff8400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.decount4 {
+  width: 100%;
+  height: 438px;
+  background: url("../images/rzVS.png") no-repeat center;
+}
+.decount4 h5 {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+}
+.decount4 h5 span {
+  display: inline-block;
+  width: 440px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.decount4 h5 .active {
+  margin-left: 120px;
+}
+.decount4 .zz {
+  color: #77777c;
+  margin-left: 133px;
+}
+.decount4 .zz li {
+  padding-left: 60px;
+  background: url("../images/RZgou.png") no-repeat left center;
+}
+.decount4 .other {
+  color: #b6b6b8;
+  margin-left: 120px;
+}
+.decount4 ul {
+  font-size: 14px;
+  float: left;
+  padding-top: 45px;
+}
+.decount4 ul li {
+  height: 18px;
+  line-height: 18px;
+  margin: 28px 0;
+}
+
+.dcDetai5 {
+  width: 1200px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+.dcDetai5 h3 {
+  position: relative;
+  padding-top: 70px;
+  width: 1200px;
+  height: 30px;
+  font-size: 30px;
+  color: #ff8400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.dcDetai5 h3 span {
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+}
+.dcDetai5 li {
+  width: 200px;
+  float: left;
+  margin: 0 38px;
+  background: #F6F6F6;
+}
+.dcDetai5 li img {
+  width: 200px;
+  height: 200px;
+}
+.dcDetai5 li div {
+  height: 14px;
+  padding: 15px;
+}
+.dcDetai5 li div span {
+  font-size: 14px;
+  color: #FF721F;
+}
+.dcDetai5 li div em {
+  font-size: 12px;
+  color: #000000;
+  float: right;
+  line-height: 14px;
+}
+.dcDetai5 li p {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 15px;
+  color: #000;
+}
+.dcDetai5 ul {
+  width: 1104px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.rzAD {
+  width: 1200px;
+  margin: 70px auto 40px auto;
+}
+
+.tj {
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding-bottom: 50px;
+}
+.tj h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #ff8400;
+  padding: 60px  0;
+}
+.tj ul li {
+  width: 336px;
+  float: left;
+  margin: 10px 132px;
+}
+.tj ul li a {
+  display: block;
+  height: 14px;
+}
+.tj ul li a span {
+  width: 269px;
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tj ul li a em {
+  color: #000;
+  font-size: 12px;
+}
+
+.strong {
+  width: 1230px;
+  margin: 0 auto;
+  padding-bottom: 148px;
+}
+.strong h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #ff8400;
+  padding: 60px  0;
+}
+.strong ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.strong ul li a {
+  width: 350px;
+  display: inline-block;
+  padding: 10px;
+  background: #FFF;
+}
+.strong ul li a img {
+  width: 350px;
+  height: 190px;
+}
+.strong ul li a p {
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  padding-top: 14px;
+}
+.delRight1 img{
+  width: 345px;
+  height: 312px;
+  margin: 20px;
+}
+.delLeft2 img{
+  width: 345px;
+  height: 312px;
+  margin: 20px;
+}
